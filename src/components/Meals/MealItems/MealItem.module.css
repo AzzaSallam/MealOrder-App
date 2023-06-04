@@ -1,0 +1,26 @@
+.meal{
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 1rem;
+    align-items: center;
+}
+.meal:not(:last-child){
+    border-bottom: 1px solid #ccc;
+}
+.name{
+    color: #549a04;
+    font-size: larger;
+    margin-bottom: 0.3rem;
+}
+.description{
+    color: #549a04;
+    font-size: 17px;
+    font-weight: 500;
+}
+.price{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0.3rem;
+    color: #ff8400;
+}
