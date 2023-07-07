@@ -68,7 +68,7 @@ const Checkout = (props)=>{
             city: enteredCity
         });
 
-        
+
         resetName();
         resetStreet();
         resetPostalCode();
@@ -125,7 +125,7 @@ const Checkout = (props)=>{
             {cityNotValid &&<p>Please enter a valid city </p>}
         </div>
         <div className={classes.actions}>
-            <button type='button' onClick={props.onCancle}> Cancel </button>
+            <button type='button' onClick={props.onCancel}> Cancel </button>
             <button className={classes.submit}>Confirm</button>
         </div>
         </form>

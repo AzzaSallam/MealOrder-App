@@ -90,16 +90,14 @@ const Cart = (props)=>{
         <React.Fragment>
         <p>Successfully sent the order!</p>
         <div className={classes.actions}>
-        <button className={classes.button} onClick={props.onClose}>
-        Close
-        </button>
+        <button className={classes.button} onClick={props.onClose}>Close</button>
     </div>
     </React.Fragment>
     );
     
 
     return (
-    <Modal onClose={props.onClick}>
+    <Modal onClose={props.onClose}>
         {!isSubmitting && !doneSubmited && cartModalContent}
         {isSubmitting && isSubmittingModalContent}
         {!isSubmitting && doneSubmited && didSubmitModalContent}
