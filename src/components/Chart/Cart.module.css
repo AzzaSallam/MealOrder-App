@@ -4,7 +4,7 @@
     padding: 0;
     color: #ff8400;
     font-size: 20px;
-    max-height: 20rem;
+    max-height: 14rem;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
