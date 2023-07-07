@@ -97,9 +97,9 @@ const Cart = (props)=>{
     </React.Fragment>
     );
     
-    
+
     return (
-    <Modal onClose={props.onClose}>
+    <Modal onClose={props.onClick}>
         {!isSubmitting && !doneSubmited && cartModalContent}
         {isSubmitting && isSubmittingModalContent}
         {!isSubmitting && doneSubmited && didSubmitModalContent}
